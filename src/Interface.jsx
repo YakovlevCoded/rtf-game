@@ -4,6 +4,7 @@ import { addEffect } from "@react-three/fiber";
 import { useKeyboardControls } from "@react-three/drei";
 
 export default function Interface() {
+  alert("its uniq deploy");
   const time = useRef();
   const forward = useKeyboardControls((state) => state.forward);
   const backward = useKeyboardControls((state) => state.backward);
